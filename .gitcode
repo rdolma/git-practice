@@ -1,0 +1,17 @@
+Setting up git for the first time
+
+git init
+git remote add origin <SSH URL>
+git add .
+git commit -m ""
+git push origin main
+
+Later on:
+git add .
+git commit -m ""
+git push origin main
+
+To create a new branch:
+
+git checkout -b "name-of-new-branch"
+git checkout "desired branch"
